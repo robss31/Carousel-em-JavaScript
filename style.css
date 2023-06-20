@@ -2,52 +2,265 @@ body {
     display: flex;
     margin: 0 auto;
     padding: 0;
- 
     box-sizing: border-box;
-    background-color: rgb(12, 17, 17);
-
-
+    background-color: rgb(46, 51, 51);
 }
 
-.carousel {
-    box-shadow: 2px 2px 4px black;
+.carousel,
+.carousel1,
+.carousel2 {
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
     width: 800px;
     height: 400px;
     margin-top: 30px;
-    
-
 }
 
-.container {
+.container,
+.container1 {
     display: flex;
     transition: 0.5s ease-in-out;
     transform: translateX(0);
- 
-   
 }
 
 img {
     object-fit: cover;
     width: 800px;
     height: 400px;
-    background-color: yellow;
-    margin-left: 5px;
-    border: #fff solid 1px;
     border-radius: 5px;
+    margin-left: 3px;
+    border: rgb(190, 190, 201) solid 5px;
 
 }
-H1{
-    color: yellow;
+
+.titulo,
+.titulos {
+    color: rgb(255, 255, 0);
     text-align: center;
     margin-top: 60px;
-    margin-left: 460px;
+    margin-left: 600px;
     font-weight: 600;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#btn{
-    text-align: end;
-    margin-left: 80px;
-    background-color: rgb(179, 255, 0);
+.container2 {
+    display: flex;
+    margin-left: -38px;
 }
+
+.filmes {
+    display: flex;
+    margin-left: 90px;
+}
+
+/*gatinho */
+#figura2 {
+    border: black solid 5px;
+    width: 560px;
+    height: 312px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 548px;
+}
+
+/*elefante */
+#figura1 {
+    border: black solid 5px;
+    width: 560px;
+    height: 312px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 1138px;
+}
+
+/*Raposa*/
+#figura {
+    border: black solid 5px;
+    width: 560px;
+    height: 310px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 1728px;
+}
+
+/*Cisne */
+#figura3 {
+    border: black solid 5px;
+    width: 560px;
+    height: 312px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 2317px;
+}
+
+/*tigre */
+#figura4 {
+    border: black solid 5px;
+    width: 560px;
+    height: 312px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 2907px;
+}
+
+/*Inicio*/
+#figura5 {
+    border: none;
+    width: 460px;
+    height: 312px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -35px;
+}
+
+
+/**/
+#figura6 {
+    border: black solid 5px;
+    width: 560px;
+    height: 312px;
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 3498px;
+}
+
+#filme {
+    border: none;
+    width: 700px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: -110px;
+}
+
+#filme1 {
+    border: none;
+    width: 700px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: -110px;
+
+}
+
+.btn1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: -700px;
+    color: whitesmoke;
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 500px;
+    font: bold 22px 'Century Gothic';
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: none;
+    border: 8px solid transparent;
+}
+.btn1:hover{
+    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+    width: 120px;
+    height: 120px;
+}
+
+.titulo1 {
+    position: relative;
+    display: flex;
+    color: whitesmoke;
+    margin-top: 515px;
+    margin-left: -2940px;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: bold 32px 'Century Gothic';
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    border: 8px solid transparent;
+    width: 220px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+
+
+.titulo1:hover{
+    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+    width: 250px;
+}
+
+
+.principal {
+    display: flex;
+    border: none;
+    width: 900px;
+    height: 600px;
+    background: rgb(8, 1, 19);
+    margin-top: 40px;
+    margin-left: 260px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foto {
+    justify-content: center;
+    margin-top: -20px;
+    width: 500px;
+    margin-left: -320px;
+    user-select: none;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn-grad {
+
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    border-radius: 50%;
+    border: 8px solid transparent;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    user-select: none;
+    transition: 0.6s;
+}
+
+.btn-grad1 {
+
+    background: linear-gradient(rgb(17, 16, 16), black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f1f3e6;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
+    transition: 0.6s;
+
+}
+.btn-grad1, .btn-grad:hover{
+    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+    width: 90px;
+}
+
