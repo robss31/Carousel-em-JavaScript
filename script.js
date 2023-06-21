@@ -18,27 +18,6 @@ function carousel() {
 setInterval(carousel, 2500);
 
 
-/*
-//CARROS
-
-const cars = document.getElementById("slide1")
-const car = document.querySelectorAll("#slide1 img")
-
-let idc = 0;
-
-function carros() {
-    idc++;
-
-    if (idc > car.length - 2) {
-        idc = 0;
-    }
-
-    cars.style.transform = `translateX(${-idc * 201.5}px)`;
-}
-
-setInterval(carros, 1000);
-
-*/
 
 const filmes = document.getElementById("slide2")
 const filme = document.querySelectorAll("#slide2 img")
@@ -56,3 +35,25 @@ function cinema() {
 }
 
 setInterval(cinema, 2500);
+
+
+
+function animais(){
+    window.location.replace("http://127.0.0.1:5500/animais.html");
+}
+
+function casas(){
+    window.location.replace("http://127.0.0.1:5500/casas.html");
+}
+
+function carros(){
+    window.location.replace("http://127.0.0.1:5500/carros.html");
+}
+
+function deco_sala(){
+    window.location.replace("http://127.0.0.1:5500/deco_sala.html");
+}
+
+function voltar(){
+    window.location.replace("http://127.0.0.1:5500/index.html");
+}
