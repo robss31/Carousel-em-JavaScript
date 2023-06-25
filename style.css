@@ -1,27 +1,11 @@
 body {
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(46, 51, 51);
 }
-
-.carousel,
-.carousel1,
-.carousel2 {
-    box-shadow: 2px 2px 4px rgb(0, 0, 0);
-    width: 800px;
-    height: 400px;
-    margin-top: 30px;
-}
-
-.container,
-.container1 {
-    display: flex;
-    transition: 0.5s ease-in-out;
-    transform: translateX(0);
-}
-
+/* Imagem do carretel*/
 img {
     object-fit: cover;
     width: 800px;
@@ -30,16 +14,6 @@ img {
     margin-left: 3px;
     border: rgb(190, 190, 201) solid 5px;
 
-}
-
-.titulo,
-.titulos {
-    color: rgb(255, 255, 0);
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 600px;
-    font-weight: 600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container2 {
@@ -113,7 +87,7 @@ img {
 }
 
 
-/**/
+/*Foto de Inicio*/
 #figura6 {
     border: black solid 5px;
     width: 560px;
@@ -123,7 +97,7 @@ img {
     margin-left: 3498px;
 }
 
-#filme {
+#filme  {
     border: none;
     width: 700px;
     height: 400px;
@@ -146,7 +120,7 @@ img {
     height: 100px;
     margin-left: -700px;
     color: whitesmoke;
-    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     border-radius: 50%;
     cursor: pointer;
     margin-top: 500px;
@@ -157,8 +131,9 @@ img {
     box-shadow: none;
     border: 8px solid transparent;
 }
-.btn1:hover{
-    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+
+.btn1:hover {
+    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     width: 120px;
     height: 120px;
 }
@@ -172,7 +147,7 @@ img {
     font-weight: 600;
     font-size: 40px;
     font-family: bold 32px 'Century Gothic';
-    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     border: 8px solid transparent;
     width: 220px;
     height: 50px;
@@ -182,12 +157,10 @@ img {
     transition: 0.6s;
 }
 
-
 .titulo1:hover{
     background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
     width: 250px;
 }
-
 
 .principal {
     display: flex;
@@ -195,8 +168,8 @@ img {
     width: 900px;
     height: 600px;
     background: rgb(8, 1, 19);
-    margin-top: 40px;
-    margin-left: 260px;
+    margin-top: 30px;
+    margin-left: 200px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -221,7 +194,7 @@ img {
 
 .btn-grad {
 
-    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986) border-box;
+    background: linear-gradient(white, black) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     border-radius: 50%;
     border: 8px solid transparent;
     position: relative;
@@ -241,7 +214,7 @@ img {
 
 .btn-grad1 {
 
-    background: linear-gradient(rgb(17, 16, 16), black) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+    background: linear-gradient(rgb(17, 16, 16), black) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     border-radius: 50%;
     border: 3px solid transparent;
     position: relative;
@@ -259,50 +232,140 @@ img {
     transition: 0.6s;
 
 }
-.btn-grad1, .btn-grad:hover{
-    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c,#368986 ) border-box;
+
+.btn-grad1,
+.btn-grad:hover {
+    background: linear-gradient(rgb(189, 31, 31), rgb(13, 14, 13)) padding-box, linear-gradient(to right, #5adb94, #0ba18c, #368986) border-box;
     width: 90px;
 }
 
-@media screen and (min-width:600px){
-    .principal{
-    display:flex;
-    flex-direction: column;
-    width: auto;
+@media(max-width:1060px) {
+
+    .principal {
+        width: 100%;
+        margin-left: 3px;
+        height: 848px;
+        margin-top: -10px;
+    }
+
+    .foto img {
+        width: 80%;
+        height: 400px;
+        margin-left: 110px;
+    }
+
+    .botao {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        gap: 30px;
+    }
+
+    .btn-grad {
+        width: 40px;
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .btn-grad1 {
+        width: 40px;
+        font-size: 10px;
+    }
+
+    .btn-grad1,
+    .btn-grad:hover {
+        width: 40px;
+    }
+
 }
 
 
-.foto > img{
-    justify-content: center;
-    margin-top: -20px;
-    width: 300px;
-    height: auto;
-    margin-left: 250px;
-    user-select: none;
+@media(max-width: 980px) {
+
+    .principal {
+        width: 100%;
+        margin-left: 3px;
+        height: 1248px;
+        margin-top: 0px;
+    }
+
+    .foto img {
+        width: 100%;
+        height: 300px;
+        margin-left: 150px;
+        margin-top: -149px;
+    }
+
+    .botao {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        gap: 30px;
+    }
+
+    .btn-grad {
+        width: 30px;
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .btn-grad1 {
+        width: 30px;
+        font-size: 10px;
+    }
+
+    .btn-grad1,
+    .btn-grad:hover {
+        width: 40px;
+    }
 }
 
-.botao {
-    display: flex;
-    flex-wrap: wrap;
-    gap:1rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
+@media(max-width: 700px) {
 
+    .principal {
+        width: 100%;
+        margin-left: 3px;
+        height: 948px;
+        margin-top: -10px;
+    }
 
-.btn-grad  {
-    width: 50px;
-    font-size: 10px;
-    height: 20px;
-}
+    .foto img {
+        width: 70%;
+        height: 300px;
+        margin-left: 230px;
+        margin-top: -180px;
+    }
 
-.btn-grad1{
-    width: 50px;
-    font-size: 10px;
-}
+    .botao {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        gap: 30px;
+    }
 
-.btn-grad1, .btn-grad:hover{
-    width: 70px;
-}
+    .btn-grad {
+        width: 60px;
+        font-size: 10px;
+        height: 20px;
+    }
+
+    .btn-grad1 {
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .btn-grad1,
+    .btn-grad:hover {
+        width: 60px;
+    }
 }
