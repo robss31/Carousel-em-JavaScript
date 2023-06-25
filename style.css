@@ -264,3 +264,45 @@ img {
     width: 90px;
 }
 
+@media screen and (min-width:600px){
+    .principal{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+}
+
+
+.foto > img{
+    justify-content: center;
+    margin-top: -20px;
+    width: 300px;
+    height: auto;
+    margin-left: 250px;
+    user-select: none;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.btn-grad  {
+    width: 50px;
+    font-size: 10px;
+    height: 20px;
+}
+
+.btn-grad1{
+    width: 50px;
+    font-size: 10px;
+}
+
+.btn-grad1, .btn-grad:hover{
+    width: 70px;
+}
+}
