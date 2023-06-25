@@ -56,6 +56,7 @@ function carros(){
 function deco_sala(){
     window.location.replace("http://127.0.0.1:5500/deco_sala.html");
     window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/deco_sala.html");
+    
 }
 
 function voltar(){
