@@ -45,16 +45,20 @@ function animais(){
 
 function casas(){
     window.location.replace("http://127.0.0.1:5500/casas.html");
+    window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/casas.html");
 }
 
 function carros(){
     window.location.replace("http://127.0.0.1:5500/carros.html");
+    window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/carros.html");
 }
 
 function deco_sala(){
     window.location.replace("http://127.0.0.1:5500/deco_sala.html");
+    window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/deco_sala.html");
 }
 
 function voltar(){
     window.location.replace("http://127.0.0.1:5500/index.html");
+    window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/index.html");
 }
