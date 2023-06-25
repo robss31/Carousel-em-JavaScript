@@ -39,7 +39,8 @@ setInterval(cinema, 2500);
 
 
 function animais(){
-    window.location.replace("http://127.0.0.1:5500/animais.html");
+   // window.location.replace("http://127.0.0.1:5500/animais.html");
+    window.location.replace("https://robss31.github.io/Carousel-em-JavaScript/animais.html");
 }
 
 function casas(){
